@@ -87,7 +87,7 @@ var config = {
   //   // root: path.resolve(__dirname),
   //   // extensions: ['', '.js'],
   //   // alias: {
-  //   //   'windup': path.resolve(__dirname),
+  //   //   'todo': path.resolve(__dirname),
   //   //   // 'qux': 'qux/lib',
   //   // },
   // },

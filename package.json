@@ -1,18 +1,18 @@
 {
-  "name": "windup",
+  "name": "todo",
   "version": "1.0.0",
   "description": "Wind it up baby!",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quxbaz/windup.git"
+    "url": "git+https://github.com/quxbaz/todo.git"
   },
   "author": "quxbaz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/quxbaz/windup/issues"
+    "url": "https://github.com/quxbaz/todo/issues"
   },
-  "homepage": "https://github.com/quxbaz/windup#readme",
+  "homepage": "https://github.com/quxbaz/todo#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
