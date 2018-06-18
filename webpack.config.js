@@ -9,7 +9,8 @@ var config = {
 
   mode: 'development',
   cache: true,
-  devtool: 'eval-source-map',
+  // devtool: 'eval-source-map',
+  devtool: 'source-map',
   entry: [
     // 'regenerator-runtime/runtime',
     path.resolve(__dirname, 'index'),
@@ -42,11 +43,10 @@ var config = {
           // path.resolve(__dirname, 'tests'),
         ],
         query: {
-          presets: ['es2015'],
-          // presets: ['es2015', 'react'],
+          presets: ['es2015', 'react'],
           plugins: [
             'transform-object-rest-spread',
-            // 'transform-class-properties',
+            'transform-class-properties',
             // 'syntax-trailing-function-commas',
             // 'add-module-exports',
             // 'transform-export-extensions',
