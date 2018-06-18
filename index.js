@@ -1,5 +1,5 @@
 // Styles
-// import 'normalize-css/normalize.css'
+import 'normalize-css/normalize.css'
 
 // Modules
 import React from 'react'

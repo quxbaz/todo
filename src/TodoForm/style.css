@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.TodoForm {
+  border: 1px solid #aaa;
+  padding: 24px 24px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+input[type='text'] {
+  margin-bottom: 16px;
+  width: 240px;
+  height: 32px;
+  padding: 4px 8px;
+}
+
+button {
+  height: 32px;
+  margin-left: 6px;
+  margin-right: 6px;
+}

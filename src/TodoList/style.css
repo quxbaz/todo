@@ -1,0 +1,13 @@
+.Container {
+  position: relative;
+  padding: 4px 8px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  background: #eaeaea;
+}
+
+/* .Number { */
+/*   font-size: 12px; */
+/*   font-weight: bold; */
+/*   color: #333; */
+/* } */

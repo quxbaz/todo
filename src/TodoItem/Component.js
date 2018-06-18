@@ -1,3 +1,4 @@
+import style from './style.css'
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 
@@ -14,10 +15,17 @@ class TodoItem extends Component {
   render () {
     const {todo} = this.props
     return (
-      <div>
-        <input type='checkbox' checked={todo.isCompleted} onChange={this.handleToggle} />
-        {todo.text}
-        <button onClick={this.handleRemove}>Remove</button>
+      <div className={style.TodoItem}>
+        <div style={{marginRight: '6px'}}>
+          {this.props.i + 1}.
+        </div>
+        <div className={style.ColLeft}>
+          <input className={style.Checkbox} type='checkbox' checked={todo.isCompleted} onChange={this.handleToggle} />
+          {todo.text}
+        </div>
+        <div className={style.ColRight}>
+          <button className={style.Remove} onClick={this.handleRemove}>remove</button>
+        </div>
       </div>
     )
   }
@@ -25,6 +33,7 @@ class TodoItem extends Component {
 }
 
 TodoItem.propTypes = {
+  i: PropTypes.number.isRequired,
   todo: PropTypes.object.isRequired,
   onToggle: PropTypes.func.isRequired,
   onClickRemove: PropTypes.func.isRequired,

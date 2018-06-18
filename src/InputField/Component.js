@@ -31,7 +31,7 @@ class InputField extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <input ref={this.input} value={this.state.text} type='text' onChange={this.handleChange} placeholder='What needs doing?' />
-        <button type='submit'>Add</button>
+        <button type='submit'>Add Todo</button>
       </form>
     )
   }

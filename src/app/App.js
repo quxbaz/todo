@@ -11,8 +11,9 @@ class App extends Component {
   constructor (props) {
     super(props)
     this.store = createAppStore()
-    this.store.dispatch(state.todos.actions.create('buy lunch'))
-    this.store.dispatch(state.todos.actions.create('eat lunch'))
+    this.store.dispatch(state.todos.actions.create('Buy lunch'))
+    this.store.dispatch(state.todos.actions.create('Eat lunch'))
+    this.store.dispatch(state.todos.actions.create('Nap for 30 minutes'))
   }
 
   render () {
